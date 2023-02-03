@@ -13,8 +13,8 @@ from gufe import (
 from .atom_mapping import (LigandAtomMapping,
                            LomapAtomMapper, lomap_scorers,
                            PersesAtomMapper, perses_scorers,
-                           WallyAtomMapper)
+                           GeomAtomMapper)
 
-from .network import Network
-from . import ligand_network_planning
+from .networks.network import Network
+from .networks import ligand_network_planning
 
