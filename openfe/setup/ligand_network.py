@@ -5,8 +5,7 @@ import json
 
 from typing import FrozenSet, Iterable, Optional
 
-from gufe import SmallMoleculeComponent
-from openfe.setup.atom_mapping import LigandAtomMapping
+from gufe import SmallMoleculeComponent, LigandAtomMapping
 
 import openfe
 

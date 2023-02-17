@@ -8,5 +8,5 @@ from .atom_mapping import (LigandAtomMapping,
                            GeomAtomMapper)
 
 from .ligand_network import LigandNetwork
-from . import ligand_network_planning
+from .networks import ligand_network_planning
 
