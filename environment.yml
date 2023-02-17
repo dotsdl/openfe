@@ -26,9 +26,10 @@ dependencies:
   # docs
   - myst-parser
   - sphinx-click
-  # - gufe==0.5
+
   - pip:
     - plugcli
     - git+https://github.com/OpenFreeEnergy/gufe@main
+    - git+https://github.com/OpenFreeEnergy/kartograf@main
     - git+https://github.com/mikemhenry/openff-models.git@support_nested_models
     
