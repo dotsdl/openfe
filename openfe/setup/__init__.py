@@ -5,7 +5,7 @@
 from .atom_mapping import (LigandAtomMapping,
                            LomapAtomMapper, lomap_scorers,
                            PersesAtomMapper, perses_scorers,
-                           GeomAtomMapper)
+                           KartografAtomMapper)
 
 from .ligand_network import LigandNetwork
 from . import ligand_network_planning
