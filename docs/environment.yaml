@@ -11,7 +11,7 @@ dependencies:
 - python=3.9
 - sphinx
 - sphinx-click
-- sphinx-toolbox
 - myst-parser
 - pip:
+  - sphinx-toolbox
   - git+https://github.com/OpenFreeEnergy/gufe@main
